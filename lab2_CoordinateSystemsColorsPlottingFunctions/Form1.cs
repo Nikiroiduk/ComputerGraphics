@@ -73,14 +73,14 @@ namespace lab2_CoordinateSystemsColorsPlottingFunctions
             g.DrawLine(axesPen, WidthInInches / 2, 0, WidthInInches / 2, HeightInInches);
             float x = -1;
             float ex = 4;
-            float shag = WidthInInches / 30;
-            while (ex <= WidthInInches + shag)
+            float step = WidthInInches / 30;
+            while (ex <= WidthInInches + step)
             {
                 float y = Convert.ToSingle(-6 * Math.Pow(x, 2) + 3 * x);
                 float ey = Math.Abs(y - HeightInInches / 4);
                 if (ex > 4) g.DrawLine(graphicsPen, old_ex, old_ey, ex, ey); 
                 old_ex = ex; old_ey = ey;
-                ex += shag;
+                ex += step;
                 x += 2 / WidthInInches;
             }
         }
