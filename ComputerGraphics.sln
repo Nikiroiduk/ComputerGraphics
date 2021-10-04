@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2_CoordinateSystemsColor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab3_WorkWithText", "lab3_WorkWithText\lab3_WorkWithText.csproj", "{11D0DC3A-EAA4-4872-9717-A0CCE5398F66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab4_LineDrawing", "lab4_LineDrawing\lab4_LineDrawing.csproj", "{97F1B359-2ED5-4BAC-9B20-4636469BE6BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{11D0DC3A-EAA4-4872-9717-A0CCE5398F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11D0DC3A-EAA4-4872-9717-A0CCE5398F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11D0DC3A-EAA4-4872-9717-A0CCE5398F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F1B359-2ED5-4BAC-9B20-4636469BE6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F1B359-2ED5-4BAC-9B20-4636469BE6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F1B359-2ED5-4BAC-9B20-4636469BE6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F1B359-2ED5-4BAC-9B20-4636469BE6BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
