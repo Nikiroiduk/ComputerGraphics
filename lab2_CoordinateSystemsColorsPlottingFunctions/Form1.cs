@@ -1,4 +1,6 @@
-﻿using System;
+﻿///Работа сдана
+
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 

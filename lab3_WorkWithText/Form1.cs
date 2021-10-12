@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -28,6 +26,7 @@ namespace lab3_WorkWithText
 
         private void SaveInFile_Click(object sender, EventArgs e)
         {
+            //Сохранение массива строк sm  в файл
             StreamWriter f = new StreamWriter(new FileStream(filename,
             FileMode.Create, FileAccess.Write));
 
@@ -38,26 +37,32 @@ namespace lab3_WorkWithText
 
         private void Clear_Click(object sender, EventArgs e)
         {
+            //Очистка pictureBox
             g.Clear(Color.FromArgb(240, 240, 240));
             File.Delete(filename);
+            //Вывод сообщения об удалении файла
             MessageBox.Show("Файл Strings.txt удалён!");
         }
 
         private void Show_Click(object sender, EventArgs e)
         {
             int k = 0;
+            //чтение строк из файла
             try
             {
                 StreamReader f = new StreamReader(new FileStream(filename,
                 FileMode.Open, FileAccess.Read));
-                for (int i = 0; i < 15; i++) { sm[i] = f.ReadLine(); }
+                for (int i = 0; i < 15; i++)
+                    sm[i] = f.ReadLine();
                 f.Close();
             }
+            //обработка исключения в загрузке строк из файла
             catch (Exception ex) { MessageBox.Show(ex.Message); }
             pictureBox1.BackColor = Color.FromArgb(240, 240, 240);
             pictureBox1.Refresh();
             for (int i = 0; i < 15; i++)
             {
+                //Отображение первой группы строк
                 if ((i >= 0) && (i < 6))
                 {
                     Font fn = new Font("Arial", 36, FontStyle.Underline);
@@ -71,6 +76,7 @@ namespace lab3_WorkWithText
                     pictureBox1.Size.Height - 20), sf);
                     fn.Dispose();
                 }
+                //Отображение второй группы строк
                 if ((i >= 6) && (i < 9))
                 {
                     k = i - 6;
@@ -84,6 +90,7 @@ namespace lab3_WorkWithText
                     pictureBox1.Size.Height - 20), sf);
                     fn.Dispose();
                 }
+                //Отображение третьей группы строк
                 if (i == 9)
                 {
                     Font fn = new Font("Times New Roman", 36, FontStyle.Strikeout);

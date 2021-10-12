@@ -14,6 +14,7 @@ namespace lab4_LineDrawing
 
         private string CreateDragonLine()
         {
+            //Порядок кривой дракона
             int orderCurve = 7;
             string str = "1";
             for (int i = 1; i < orderCurve; i++)
@@ -36,6 +37,7 @@ namespace lab4_LineDrawing
             Pen dragonPen = new Pen(Color.FromArgb(70, 70, 70), 2);
             int dx = 23;
 
+            //Создание строки кривой дракона
             string str = CreateDragonLine();
             int x1 = pictureBox1.Size.Width / 2;
             int y1 = pictureBox1.Size.Height / 2;
@@ -43,7 +45,9 @@ namespace lab4_LineDrawing
             int y2 = pictureBox1.Size.Height / 2 - dx;
             int x3 = x2;
             int y3 = y2;
+            //Первая линия
             g.DrawLine(dragonPen, x1, y1, x3, y3);
+            //Отображение линий по всем цифрам кривой дракона
             for (int i = 0; i < str.Length; i++)
             {
                 if (y2 - y1 < 0)
