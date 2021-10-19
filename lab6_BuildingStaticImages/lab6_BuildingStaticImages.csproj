@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AE011E5A-FC90-4981-B2FD-70D5CF851D04}</ProjectGuid>
+    <ProjectGuid>{2F1D6135-3492-4296-8147-0098419D3AF3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>lab2_CoordinateSystemsColorsPlottingFunctions</RootNamespace>
-    <AssemblyName>lab2_CoordinateSystemsColorsPlottingFunctions</AssemblyName>
+    <RootNamespace>lab6_BuildingStaticImages</RootNamespace>
+    <AssemblyName>lab6_BuildingStaticImages</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="lab2_CoordinateSystemsColorsPlottingFunctions.cs">
+    <Compile Include="lab6_BuildingStaticImages.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lab2_CoordinateSystemsColorsPlottingFunctions.Designer.cs">
-      <DependentUpon>lab2_CoordinateSystemsColorsPlottingFunctions.cs</DependentUpon>
+    <Compile Include="lab6_BuildingStaticImages.Designer.cs">
+      <DependentUpon>lab6_BuildingStaticImages.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="lab2_CoordinateSystemsColorsPlottingFunctions.resx">
-      <DependentUpon>lab2_CoordinateSystemsColorsPlottingFunctions.cs</DependentUpon>
+    <EmbeddedResource Include="lab6_BuildingStaticImages.resx">
+      <DependentUpon>lab6_BuildingStaticImages.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

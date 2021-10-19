@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 namespace lab5_BrushesAndFill_Сharting
 {
-    public partial class Form1 : Form
+    public partial class lab5_BrushesAndFill_Сharting : Form
     {
-        public Form1()
+        public lab5_BrushesAndFill_Сharting()
         {
             InitializeComponent();
 

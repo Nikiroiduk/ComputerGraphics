@@ -16,7 +16,7 @@ namespace lab4_LineDrawing
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new lab4_LineDrawing());
         }
     }
 }

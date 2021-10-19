@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace lab3_WorkWithText
 {
-    public partial class Form1 : Form
+    public partial class lab3_WorkWithText : Form
     {
         Graphics g;
         string filename = @"Strings.txt";
@@ -18,7 +18,7 @@ namespace lab3_WorkWithText
             "Thirteenth line", "Fourteenth line",
             "Fifteenth line"};
 
-        public Form1()
+        public lab3_WorkWithText()
         {
             InitializeComponent();
             g = pictureBox1.CreateGraphics();

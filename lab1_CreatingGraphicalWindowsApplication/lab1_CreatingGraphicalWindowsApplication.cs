@@ -6,9 +6,9 @@ using System.Windows.Forms;
 
 namespace lab1_CreatingGraphicalWindowsApplication
 {
-    public partial class Form1 : Form
+    public partial class lab1_CreatingGraphicalWindowsApplication : Form
     {
-        public Form1()
+        public lab1_CreatingGraphicalWindowsApplication()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace lab2_CoordinateSystemsColorsPlottingFunctions
 {
-    partial class Form1
+    partial class lab2_CoordinateSystemsColorsPlottingFunctions
     {
         /// <summary>
         /// Required designer variable.
@@ -119,7 +119,7 @@ namespace lab2_CoordinateSystemsColorsPlottingFunctions
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "lab2_CoordinateSystemsColorsPlottingFunctions";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

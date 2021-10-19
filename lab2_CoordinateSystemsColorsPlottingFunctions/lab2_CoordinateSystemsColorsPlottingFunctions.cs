@@ -6,10 +6,10 @@ using System.Windows.Forms;
 
 namespace lab2_CoordinateSystemsColorsPlottingFunctions
 {
-    public partial class Form1 : Form
+    public partial class lab2_CoordinateSystemsColorsPlottingFunctions : Form
     {
         Graphics g;
-        public Form1()
+        public lab2_CoordinateSystemsColorsPlottingFunctions()
         {
             InitializeComponent();
             g = pictureBox1.CreateGraphics();

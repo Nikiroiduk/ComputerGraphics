@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace lab2_CoordinateSystemsColorsPlottingFunctions
+namespace lab6_BuildingStaticImages
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace lab2_CoordinateSystemsColorsPlottingFunctions
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new lab2_CoordinateSystemsColorsPlottingFunctions());
+            Application.Run(new lab6_BuildingStaticImages());
         }
     }
 }

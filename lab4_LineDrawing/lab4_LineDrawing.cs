@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 namespace lab4_LineDrawing
 {
-    public partial class Form1 : Form
+    public partial class lab4_LineDrawing : Form
     {
-        public Form1()
+        public lab4_LineDrawing()
         {
             InitializeComponent();
         }

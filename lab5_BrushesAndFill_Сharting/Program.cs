@@ -16,7 +16,7 @@ namespace lab5_BrushesAndFill_Сharting
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new lab5_BrushesAndFill_Сharting());
         }
     }
 }

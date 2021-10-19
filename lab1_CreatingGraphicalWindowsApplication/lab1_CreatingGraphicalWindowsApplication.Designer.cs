@@ -1,7 +1,7 @@
 ﻿
 namespace lab1_CreatingGraphicalWindowsApplication
 {
-    partial class Form1
+    partial class lab1_CreatingGraphicalWindowsApplication
     {
         /// <summary>
         /// Required designer variable.
@@ -60,7 +60,7 @@ namespace lab1_CreatingGraphicalWindowsApplication
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "lab1_CreatingGraphicalWindowsApplication";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

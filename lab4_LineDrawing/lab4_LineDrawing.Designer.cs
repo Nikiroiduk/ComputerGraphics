@@ -1,7 +1,7 @@
 ﻿
 namespace lab4_LineDrawing
 {
-    partial class Form1
+    partial class lab4_LineDrawing
     {
         /// <summary>
         /// Required designer variable.
@@ -77,7 +77,7 @@ namespace lab4_LineDrawing
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "lab4_LineDrawing";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

@@ -1,7 +1,7 @@
 ﻿
 namespace lab3_WorkWithText
 {
-    partial class Form1
+    partial class lab3_WorkWithText
     {
         /// <summary>
         /// Required designer variable.
@@ -31,9 +31,9 @@ namespace lab3_WorkWithText
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Clear = new System.Windows.Forms.Button();
-            this.Show = new System.Windows.Forms.Button();
             this.SaveInFile = new System.Windows.Forms.Button();
+            this.Show = new System.Windows.Forms.Button();
+            this.Clear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -59,18 +59,18 @@ namespace lab3_WorkWithText
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Controls";
             // 
-            // Clear
+            // SaveInFile
             // 
-            this.Clear.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Clear.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Clear.Location = new System.Drawing.Point(157, 13);
-            this.Clear.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
-            this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(75, 44);
-            this.Clear.TabIndex = 0;
-            this.Clear.Text = "Clear";
-            this.Clear.UseVisualStyleBackColor = true;
-            this.Clear.Click += new System.EventHandler(this.Clear_Click);
+            this.SaveInFile.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SaveInFile.Dock = System.Windows.Forms.DockStyle.Right;
+            this.SaveInFile.Location = new System.Drawing.Point(7, 13);
+            this.SaveInFile.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
+            this.SaveInFile.Name = "SaveInFile";
+            this.SaveInFile.Size = new System.Drawing.Size(75, 44);
+            this.SaveInFile.TabIndex = 2;
+            this.SaveInFile.Text = "Save in file";
+            this.SaveInFile.UseVisualStyleBackColor = true;
+            this.SaveInFile.Click += new System.EventHandler(this.SaveInFile_Click);
             // 
             // Show
             // 
@@ -85,18 +85,18 @@ namespace lab3_WorkWithText
             this.Show.UseVisualStyleBackColor = true;
             this.Show.Click += new System.EventHandler(this.Show_Click);
             // 
-            // SaveInFile
+            // Clear
             // 
-            this.SaveInFile.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SaveInFile.Dock = System.Windows.Forms.DockStyle.Right;
-            this.SaveInFile.Location = new System.Drawing.Point(7, 13);
-            this.SaveInFile.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
-            this.SaveInFile.Name = "SaveInFile";
-            this.SaveInFile.Size = new System.Drawing.Size(75, 44);
-            this.SaveInFile.TabIndex = 2;
-            this.SaveInFile.Text = "Save in file";
-            this.SaveInFile.UseVisualStyleBackColor = true;
-            this.SaveInFile.Click += new System.EventHandler(this.SaveInFile_Click);
+            this.Clear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Clear.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Clear.Location = new System.Drawing.Point(157, 13);
+            this.Clear.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(75, 44);
+            this.Clear.TabIndex = 0;
+            this.Clear.Text = "Clear";
+            this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // Form1
             // 
@@ -106,7 +106,7 @@ namespace lab3_WorkWithText
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "lab3_WorkWithText";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

@@ -1,7 +1,7 @@
 ﻿
 namespace lab5_BrushesAndFill_Сharting
 {
-    partial class Form1
+    partial class lab5_BrushesAndFill_Сharting
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,7 @@ namespace lab5_BrushesAndFill_Сharting
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "lab5_BrushesAndFill_Сharting";
             this.Click += new System.EventHandler(this.Form1_Click);
             this.ResumeLayout(false);
 

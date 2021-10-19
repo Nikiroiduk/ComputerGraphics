@@ -16,7 +16,7 @@ namespace lab3_WorkWithText
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new lab3_WorkWithText());
         }
     }
 }
