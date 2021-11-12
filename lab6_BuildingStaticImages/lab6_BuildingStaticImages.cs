@@ -80,6 +80,7 @@ namespace lab6_BuildingStaticImages
                                        new PointF(width / 2 + 130, height / 3 + 25) };
             g.FillClosedCurve(new SolidBrush(Color.FromArgb(110, 54, 127, 255)), cabin);
             g.DrawClosedCurve(Pens.Black, cabin);
+
             g.Dispose();
         }
     }
