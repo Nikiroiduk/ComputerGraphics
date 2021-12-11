@@ -1,4 +1,6 @@
-### ComputerGraphics
+# ComputerGraphics
+
+<details><summary>First semester</summary>
 
 * [Lab 1](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab1_CreatingGraphicalWindowsApplication) - Creating a graphical Windows application
 * [Lab 2](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab2_CoordinateSystemsColorsPlottingFunctions) - Coordinate systems, colors. Plotting functions
@@ -8,3 +10,7 @@
 * [Lab 6](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab6_BuildingStaticImages) - Building static images
 * [Lab 7](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab7_BuildingDynamicImages) - Building dynamic images
 * [Lab 8](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab8_VideoGameDevelopment) - Video game development
+
+</details>
+
+
