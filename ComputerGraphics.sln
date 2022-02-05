@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab7_BuildingDynamicImages"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab8_VideoGameDevelopment", "lab8_VideoGameDevelopment\lab8_VideoGameDevelopment.csproj", "{80F435E0-1FEF-4B4C-9B17-0F92B6F62614}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab9_RotateAndTranslateIn2DSpace", "lab9_RotateAndTranslateIn2DSpace\lab9_RotateAndTranslateIn2DSpace.csproj", "{0DD91EB4-830B-46D5-9E8F-E6815C15306F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{80F435E0-1FEF-4B4C-9B17-0F92B6F62614}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80F435E0-1FEF-4B4C-9B17-0F92B6F62614}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80F435E0-1FEF-4B4C-9B17-0F92B6F62614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD91EB4-830B-46D5-9E8F-E6815C15306F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD91EB4-830B-46D5-9E8F-E6815C15306F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD91EB4-830B-46D5-9E8F-E6815C15306F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD91EB4-830B-46D5-9E8F-E6815C15306F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
