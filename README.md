@@ -15,7 +15,7 @@
 
 <details><summary>Spring semester</summary>
 
-* [Lab 9](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab1_CreatingGraphicalWindowsApplication) - Rotate and translate in 2D space
+* [Lab 9](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab9_RotateAndTranslateIn2DSpace) - Rotate and translate in 2D space
 * [Lab 10](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab2_CoordinateSystemsColorsPlottingFunctions) - Coordinate systems, colors. Plotting functions
 * [Lab 11](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab3_WorkWithText) - Work with text
 * [Lab 12](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab4_LineDrawing) - Line drawing
