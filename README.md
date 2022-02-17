@@ -16,12 +16,7 @@
 <details><summary>Spring semester</summary>
 
 * [Lab 9](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab9_RotateAndTranslateIn2DSpace) - Rotate and translate in 2D space
-* [Lab 10](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab2_CoordinateSystemsColorsPlottingFunctions) - Coordinate systems, colors. Plotting functions
-* [Lab 11](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab3_WorkWithText) - Work with text
-* [Lab 12](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab4_LineDrawing) - Line drawing
-* [Lab 13](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab5_BrushesAndFill_%D0%A1harting) - Brushes and fill areas. Building business diagrams
-* [Lab 14](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab6_BuildingStaticImages) - Building static images
-* [Lab 15](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab7_BuildingDynamicImages) - Building dynamic images
+* [Lab 10](https://github.com/Nikiroiduk/ComputerGraphics/tree/master/lab10_Cohen-SutherlandLineClippingAlgorithm) - Cohen-Sutherland line clipping algorithm
 
 </details>
 
