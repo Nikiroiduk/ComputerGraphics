@@ -53,7 +53,10 @@ namespace lab9_RotateAndTranslateIn2DSpace
             sin_Phi = Math.Sin(Phi);
 
             //смещение относительно центра вращения
-            for (j = 0; j < 4; j++) { x[j] += x0; y[j] += y0; }
+            for (j = 0; j < 4; j++)
+            {
+                x[j] += x0; y[j] += y0;
+            }
             //цикл прорисовки прямоугольников
             for (i = 0; i < 30; i++)
             {
@@ -61,7 +64,6 @@ namespace lab9_RotateAndTranslateIn2DSpace
                 for (j = 0; j <= 3; j++)
                 {
                     //пересчет координат для текущего прямоугольника
-
                     dx = x[j] - x0;
                     dy = y[j] - y0;
                     x[j] = x0 + dx * cos_Phi - dy * sin_Phi;

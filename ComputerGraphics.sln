@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab8_VideoGameDevelopment",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab9_RotateAndTranslateIn2DSpace", "lab9_RotateAndTranslateIn2DSpace\lab9_RotateAndTranslateIn2DSpace.csproj", "{0DD91EB4-830B-46D5-9E8F-E6815C15306F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab10_Cohen-SutherlandLineClippingAlgorithm", "lab10_Cohen-SutherlandLineClippingAlgorithm\lab10_Cohen-SutherlandLineClippingAlgorithm.csproj", "{25DCEF3B-53D2-45AE-962C-7CDC9BBA7BB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0DD91EB4-830B-46D5-9E8F-E6815C15306F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD91EB4-830B-46D5-9E8F-E6815C15306F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DD91EB4-830B-46D5-9E8F-E6815C15306F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25DCEF3B-53D2-45AE-962C-7CDC9BBA7BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25DCEF3B-53D2-45AE-962C-7CDC9BBA7BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25DCEF3B-53D2-45AE-962C-7CDC9BBA7BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25DCEF3B-53D2-45AE-962C-7CDC9BBA7BB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
